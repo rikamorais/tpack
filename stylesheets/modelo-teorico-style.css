@@ -1,0 +1,377 @@
+.section-conteudo {
+  margin-bottom: 100px;
+}
+
+.conhecimento-professor {
+  background-color: var(--azul);
+  width: 32rem;
+}
+.conhecimento-professor, .articulacao-conhecimentos {
+    margin: 50px 20px 20px 0;
+    display: flex;
+    padding: 5px 0;
+    justify-content: center;
+    align-items: center;
+    color: var(--branco);
+    font-size: clamp(1.5rem, 2vw + 0.1rem, 2rem);
+    font-weight: 700;
+    white-space: nowrap;
+}
+.articulacao-conhecimentos {
+  background-color: var(--vermelho);
+  width: 30.6875rem;
+}
+div.visao-shulman {
+  display: flex;
+  justify-content: start;
+  margin-top: 40px;
+  min-width: 100%;
+}
+
+div.visao-shulman .titulo-diagrama {
+  display: block;
+  /* flex-direction: column; */
+  align-items: center;
+  background-color: var(--amarelo);
+  min-width: 16.9375rem!important;
+  height: 6rem;
+  padding: 5px 0;
+  margin-top: 150px;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-align: center;
+  font-size: clamp(1.8rem, 2vw + 0.1rem, 2rem);
+  transition: 1s;
+}
+  .diagrama {
+    margin-top: 50px;
+    margin-bottom: 80px;
+  }
+div.diagrama-corpo {
+  display: flex;
+  flex-direction: column;
+}
+div.barra-horizontal-cinza {
+  width: 30px;
+  margin-top: 199px;
+  border-top: 2px solid var(--cinza);
+}
+div.barra-vertical-cinza {
+  margin: 0;
+  padding: 0!important;
+  border-left: 2px solid var(--cinza);
+}
+img.barra-bolinha {
+  margin-right: 7px;
+}
+img.bolinha-topo {
+}
+div.texto-topico {
+  display: flex;
+  font-size: 1.5rem;
+  font-weight: 700;
+  padding-bottom: 10px;
+}
+div.texto-extremidades {
+  border-left: none;
+  border: none;
+}
+div.primeiro {
+}
+div.primeiro div:nth-child(1) {
+  margin-left: -8px;
+  margin-top: -3px;
+  margin-right: 8px;
+}
+div.primeiro div:nth-child(2) {
+  margin-top: -12px;
+}
+div.saiba-mais-primeiro {
+  margin-top: -25px!important;
+}
+span.saiba-mais1 {
+  color: var(--vermelho);
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 1.5rem;
+  white-space: nowrap;
+}
+div.saiba-mais11 {
+  padding-left: 60px;
+  margin-top: -15px;
+  padding-bottom: 5px;
+}
+div.display-none {
+  display: none;
+  transition: 0.5s;
+}
+.item2-diagrama {
+  margin-top: -5px;
+}
+
+div.saiba-mais div {
+  display: flex;
+  flex-direction: column;
+  font-style: normal;
+  font-weight: 700;
+}
+div.saiba-mais-ultimo {
+  border: none;
+  margin-left: 2px;
+}
+div.ultimo-topico {
+
+}
+div.ultimo-topico div:nth-child(1) {
+  margin-right: 6px;
+  margin-top: -6px;
+}
+img.bolinha-end {
+}
+
+
+  
+  img#barra-azul-transparente {
+    width: 100%;
+    height: 100%;
+    margin-top: 50px;
+  }
+  div.conhecimentos-iniciais {
+    background-color: var(--verde);
+    display: flex;
+    width: 17.5625rem;
+    padding: 0.38463rem;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.44231rem;
+    font-weight: 700;
+    margin-bottom: 30px;
+  }
+
+  img#tres-circulos {
+    display: flex;
+    margin: 50px auto 70px auto!important;
+    /* width: clamp(90%, 5vw + 0.1rem, 671px); */
+    width: min(100%, 671px);
+  }
+  div.explicacao-circulos {
+    gap: 20px;
+  }
+  div.conhecimento-conteudo, div.conhecimento-pedagogico, div.conhecimento-tecnologico {
+    display: flex;
+    gap: 20px;
+  }
+  div.conhecimento-conteudo div:nth-of-type(1),
+  div.conhecimento-pedagogico div:nth-of-type(1),
+  div.conhecimento-tecnologico div:nth-of-type(1) {
+    min-width: 229px;
+    min-height: 110px;
+    white-space: wrap;
+    font-size: 26px;
+    display: flex;
+    align-items: center;
+    padding-left: 25px;
+    margin-bottom: 20px;
+    font-weight: 700;
+  }
+  div.conhecimento-conteudo div:nth-of-type(1), 
+  div.conhecimento-conteudo div:nth-of-type(2) {
+    background-color: var(--amarelo-claro);
+  }
+  div.conhecimento-pedagogico div:nth-of-type(1), 
+  div.conhecimento-pedagogico div:nth-of-type(2) {
+    background-color: var(--vermelho-claro);
+  }
+  div.conhecimento-tecnologico div:nth-of-type(1),
+  div.conhecimento-tecnologico div:nth-of-type(2) {
+    background-color: var(--azul-claro);
+  }
+  div.conhecimento-conteudo div:nth-of-type(2),
+  div.conhecimento-pedagogico div:nth-of-type(2),
+  div.conhecimento-tecnologico div:nth-of-type(2) {
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 20px;
+  }
+
+  .titulo-articulacoes {
+    margin-top: 60px;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: center;
+    color: var(--branco);
+    background-color: var(--verde);
+    font-size: 2rem;
+    font-weight: 700;
+    width: 14rem;
+  }
+  div.video-articulacoes {
+    display: flex;
+    justify-content: center;
+  }
+  div.video-articulacoes video {
+    width: min(90%, 500px);
+    height: min(90%, 500px);
+  }
+  div.conhecimento-pedagogico-conteudo {
+
+  }
+  div.conhecimento-pedagogico-conteudo h2,
+  div.conhecimento-tecnologico-conteudo h2,
+  div.conhecimento-pedagogico-tecnologia h2 {
+    margin-top: 50px;
+    font-weight: 700;
+    font-size: clamp(1.5rem, 2vw + 0.1rem, 2rem);
+  }
+  div.conhecimento-pedagogico-conteudo img, 
+  div.conhecimento-tecnologico-conteudo img,
+  div.conhecimento-pedagogico-tecnologia img {
+    display: flex;
+    width: min(90%, 654px);
+    margin: 60px auto;
+  }
+  video.video-articulacoes {
+    width: min(90%, 432px);
+  }
+
+  div.modelo-teorico-conhecimento-t-p-c > div {
+    font-weight: 700;
+  }
+
+  div.modelo-teorico-conhecimento-t-p-c div:nth-child(1) {
+    width: min(89%, 59rem);
+  }
+  div.modelo-teorico-conhecimento-t-p-c div:nth-child(2) {
+    width: clamp(23rem, 5vw + 0.1rem, 25rem);
+    margin-bottom: 50px;
+  }
+  div.modelo-teorico-conhecimento-t-p-c div:nth-child(1),
+  div.modelo-teorico-conhecimento-t-p-c div:nth-child(2) {
+    margin-top: 10px;
+    color: var(--branco);
+    font-size: clamp(1.8rem, 5vw + 0.1rem, 2rem);
+    /* font-size: 2rem; */
+    background-color: var(--azul);
+    padding: 0 10px;
+  }
+  img#barra-diagonal-verde {
+    margin-top: 5px;
+    margin-bottom: 60px;
+    width: 100%;
+  }
+  div.modelo-teorico-conhecimento-t-p-c img {
+    display: flex;
+    width: min(90%, 600px);
+    margin: 60px auto;
+  }
+
+
+
+/*
+  ┌──────────────────────────────────────────────────────────────────────┐
+  │    Media queries                                                     │
+  └──────────────────────────────────────────────────────────────────────┘
+  */
+@media (max-width: 1700px){
+  .conhecimento-professor {
+    width: 34rem;
+  }
+}
+
+@media (max-width: 1400px) {
+  .conhecimento-professor {
+    width: 30rem;
+  }
+}
+@media (max-width: 1200px) {
+  .conhecimento-professor {
+    width: 26rem;
+  }
+  .articulacao-conhecimentos {
+    width: 23.6875rem!important;
+  }
+}
+@media (max-width: 1000px) {
+  .conhecimento-professor {
+    width: 24.5rem;
+  }
+}
+@media (max-width: 990px) {
+  .conhecimento-professor {
+    width: 24rem;
+  }
+  div.modelo-teorico-links {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+}
+@media(max-width: 830px) {
+  div.visao-shulman {
+    /* margin-top: -90px; */
+    flex-direction: column;
+    justify-content: center!important;
+  }
+  div.barra-horizontal-cinza {
+    display: none;
+  }
+  div.visao-shulman .titulo-diagrama {
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+  }
+  .primeiro div:nth-child(2) {
+    padding: -20px;
+  }
+
+}
+@media (max-width: 772px) {
+
+}
+@media (max-width: 576px) {
+  .articulacao-conhecimentos {
+    width: 24.6875rem;
+  }
+  div.div-titulo h1 {
+    font-size: 2.3rem;
+  }
+  div.explicacao-circulos > div {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+  }
+  div.conhecimento-conteudo div:nth-of-type(1),
+  div.conhecimento-pedagogico div:nth-of-type(1),
+  div.conhecimento-tecnologico div:nth-of-type(1) {
+    display: flex;
+    justify-content: center;
+    padding-left: 0;
+  }
+  div.conhecimento-conteudo div:nth-of-type(2),
+  div.conhecimento-pedagogico div:nth-of-type(2),
+  div.conhecimento-tecnologico div:nth-of-type(2) {
+    padding: 10px 15px;
+  }
+}
+@media (max-width: 470px) {
+  div.modelo-teorico-conhecimento-t-p-c div:nth-child(1) {
+    width: min(94%, 59rem);
+  }
+}
+@media(max-width: 430px) {
+  div.conteudo {
+    padding: 0;
+  }
+  .conhecimento-professor {
+    width: 23.5rem;
+  }
+  div.modelo-teorico-conhecimento-t-p-c div:nth-child(1) {
+    width: min(98%, 59rem);
+  }
+}

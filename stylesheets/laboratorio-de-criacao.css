@@ -1,0 +1,40 @@
+.div-drop-down-p {
+    font-style: italic;
+    margin-top: 0
+}
+
+.text-area {
+    background-color: var(--palha);
+    margin-top: 0!important;
+    border: none;
+    box-shadow: 0 0 0 0;
+    width: 100%;
+    height: 60px;
+    outline: none;
+    padding: 10px;
+    font-style: italic;
+}
+
+div.div-drop-down-p {
+    font-style: italic;
+    padding: 0;
+    background-color: var(--palha);
+}
+
+label {
+    display: flex;
+    margin-bottom: 0;
+}
+
+.contextualizacao-lab2 {
+    padding-top: 10px!important;
+    margin-top: 0;
+}
+
+
+@media (max-width: 460px) {
+    .text-area {
+    height: 80px;
+    }
+    .dropdown-duplo {}
+}

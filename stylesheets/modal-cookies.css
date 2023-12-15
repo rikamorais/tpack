@@ -1,0 +1,110 @@
+/* COOKIES CONTAINER */
+
+#cookies-container{
+    background-color: var(--amarelo-claro);
+    color: var(--azul-escuro);
+    width: 100%;
+    border: 2px solid var(--azul-escuro);
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    gap: 50px;
+  }
+  .modal-content {
+    background-color: var(--amarelo-claro);
+    /* min-width: 100%; */
+  }
+  .modal-dialog {
+    max-width: 80%;
+  }
+  a.modal-dialog {
+    color: var(--azul-escuro);
+  }
+  
+  .text-cookie{
+    margin-left: 30px;
+  }
+  
+  .text-cookie > p {
+    font-size: 16px;
+  }
+  
+  .buttons-cookie{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+  }
+  
+  .buttons-cookie > button {
+    outline: none;
+    border: 1;
+    width: 180px;
+    height: 40px;
+    border-radius: 1px;
+    /* cursor: pointer; */
+  }
+  
+  #botao-recusar-cookies{
+    background-color: var(--amarelo-claro);
+    color: var(--azul-escuro);
+    text-transform: uppercase;
+    font-weight: bold;
+    border: 2px solid var(--azul-escuro);
+  }
+  
+  #botao-aceitar-cookies{
+    background-color: var(--azul-escuro);
+    color: var(--branco);
+    text-transform: uppercase;
+    font-weight: bold;
+    border: 2px solid var(--azul-escuro);
+  }
+  
+  .buttons-cookie > span {
+    width: 10%;
+  }
+  
+  #cookies-container span > img {
+    width: 20px;
+    cursor: pointer;
+  }
+
+  @media (min-width: 576px){
+
+}
+@media (max-width: 996px) {
+    #cookies-container {
+        display: flex;
+        flex-direction: column!important;
+        /* max-width: 100%; */
+        gap: 10px;
+    }
+    #img-fechar-cookies1 {
+        display: none;
+    }
+    .text-cookie{
+        margin-left: initial;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 796px) {
+    .buttons-cookie {
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 10px;
+    }
+    #span-img-fechar-cookies {
+        display: none;
+    }
+}
+
+
+@media (min-width: 1400px){
+  #exampleModalCenter{
+    top: 200px;
+  }
+}
+
+  
+  /* END OF COOKIES CONTAINER */

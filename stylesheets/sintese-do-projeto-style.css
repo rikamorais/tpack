@@ -1,0 +1,42 @@
+h2.titulo-sintese-do-projeto {
+    margin-top: 70px;
+    padding: 10px 0;
+    line-height: 1.5;
+}
+span.h2-sintese-projeto {
+    background-color: var(--vermelho);
+    color: var(--branco);
+    padding: 5px;
+}
+
+.p-sintese-projeto {
+    margin-top: 30px;
+}
+
+div.sintese-do-projeto {
+    width: 95%;
+    padding: 1.25rem;
+    align-items: flex-start;
+    background-color: var(--palha);
+    padding-bottom: 0;
+    border: 0.5px solid var(--preto);
+}
+
+.sintese-do-projeto h3 {
+    color: var(--preto);
+    text-align: justify;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.margens-subtítulo {
+    margin: 35px 0;
+}
+.sintese-do-projeto ul {
+    margin-left: 35px;
+}
+.btn-laboratorio {
+    padding: 3px 7px;
+    margin-top: 70px;
+}

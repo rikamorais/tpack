@@ -1,0 +1,93 @@
+.btn-fechar {
+    background-color: var(--azul);
+    border: 1px solid var(--azul);
+    color: var(--branco);
+    border-radius: 4px;
+    padding: 10px 28px;
+    font-size: 19px;
+    transition: all .3s ease;
+}
+.fechar-modal {
+    cursor: pointer;
+}
+
+/* .btn-fechar:hover {
+    background-color: var(--azul);
+    color: #fff;
+} */
+
+.modal-laboratorio {
+    background-color: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100%;
+    display: none;
+}
+.conteudo-modal {
+    margin: 0 auto;
+    top: 50%;
+    width: min(95%, 600px);
+    background-color: var(--branco);
+    border-radius: 8px;
+    overflow-y: auto;
+    position: relative;
+}
+.cabecalho-modal {
+    padding: 1px 8px;
+    display: flex;
+    justify-content: end;
+    border-bottom: 1px solid #eee;
+}
+.cabecalho-modal .cabecalho-titulo-modal {
+    font-weight: bold;
+    margin: 10px 0;
+}
+.cabecalho-modal-fechar {
+    padding: 20px 10px;
+    cursor: pointer;   
+}
+.corpo-modal {
+    padding: 1px 8px 8px 8px;
+    display: flex;
+    justify-content: center;
+    /* width: 100%; */
+}
+.rodape-modal {
+    display: flex;
+    justify-content: center;
+    border-top: 1px solid #eee;
+    padding: 8px;
+}
+
+.slideInDown {
+    -webkit-animation-name: slideInDown;
+    animation-name: slideInDown;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    }
+    @-webkit-keyframes slideInDown {
+    0% {
+    -webkit-transform: translateY(-100%);
+    transform: translateY(-100%);
+    visibility: visible;
+    }
+    100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    }
+    }
+    @keyframes slideInDown {
+    0% {
+    -webkit-transform: translateY(-100%);
+    transform: translateY(-100%);
+    visibility: visible;
+    }
+    100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    }
+    } 

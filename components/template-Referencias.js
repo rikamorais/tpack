@@ -1,0 +1,9 @@
+const referencias = document.querySelector(".referencias");
+referencias.innerHTML = `
+<p>Referências:</p>
+      <p><span class="uppercase">mishra</span>, P.; <span class="uppercase">koehler</span>, M. J. Technological pedagogical content knowledge: A framework for teacher knowledge. <strong>Teachers College Record</strong>, 108(6), 1017-1054, 2006.</p>
+      <p><span class="uppercase">shulman</span>, L. S. Those who understand: knowledge growth in teaching. <strong>Educational Research</strong>,12(2), 4-14, 1986. Recuperado em 01 março, 2017, de http://www.fisica.uniud.it/URDF/masterDidSc iUD/materiali/pdf/Shulman_1986.pdf Acesso em: 26 maio de 2020.</p>
+      <p><span class="uppercase">shulman</span>, L. S. Knowledge an Teaching: foundations of the new reform. Harvard <strong>Educational Review</strong>, 57(1), 1-22, 1987. Recuperado em 01 março, 2017, de http://hepgjournals.org/doi/pdf/10.17763/hae r.57.1.j463w79r56455411 Acesso em: 26 maio de 2020.</p>
+      <p><span class="uppercase">shulman</span>, L. S. The dangers of dichotomous thinking in education. In P. GRIMMER and G. ERICKSON (Eds.) <strong>Reflection in teacher education</strong>. New York, NY: Teachers College Press. Disponível em: http://www.sciepub.com/reference/220639 Acesso em: 26 maio de 2020.</p>
+      <p><span class="uppercase">shulman</span>, L. S. Towards a Pedagogy of Cases. In J. H. SHULMAN (Ed.)<strong>, Case Study Methods in Teacher Education</strong> (pp. 1-30). New York: Teachers College Press, 1992. Disponível em: <span class = "text-break">https://www.scirp.org/(S(vtj3fa45qm1ean45vvffcz55))/reference/ReferencesPapers.aspx?ReferenceID=1610418 Acesso em: 26 maio de 2020.</span></p>
+`;

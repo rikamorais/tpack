@@ -1,0 +1,57 @@
+h2.titulo-estudo-de-caso {
+    margin-top: 70px;
+    padding: 10px 0;
+    line-height: 1.5;
+}
+span.h2-contextualizacao {
+    background-color: var(--azul-escuro);
+    color: var(--branco);
+    padding: 5px;
+}
+.p-estudo-de-caso {
+    margin-top: 30px;
+}
+
+div.dropdown-cinza {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+div.titulo-drop-down {
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+    border: 0.5px solid var(--preto);
+    background-color: var(--cinza-claro);
+    padding: 3px 5px;
+    margin-top: 15px;
+    cursor: pointer;
+    font-weight: 700;
+}
+img.olho-fechado, img.olho-aberto {
+    width: 28px;
+    height: 22px;
+}
+div.drop-down-none {
+    font-style: italic;
+    padding: 3px 5px;
+    border: 0.5px solid var(--preto);
+    border-top: none;
+    background-color: var(--palha);
+}
+div.dropdown-duplo, div.dropdown-triplo {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+@media(max-width: 670px) {
+    div.dropdown-triplo {
+        flex-direction: column;
+    }
+}
+@media (max-width: 450px) {
+    div.dropdown-duplo {
+        flex-direction: column;
+    }
+}
